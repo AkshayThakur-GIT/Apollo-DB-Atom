@@ -1,0 +1,47 @@
+--------------------------------------------------------
+--  DDL for Type EXP_SHIP_CSV_LINE
+--------------------------------------------------------
+
+  CREATE OR REPLACE EDITIONABLE TYPE "ATOM"."EXP_SHIP_CSV_LINE" as object (
+line_number  number,
+line_raw     varchar2(4000),
+c001 varchar2(4000),
+c002 varchar2(4000),
+c003 varchar2(4000),
+c004 varchar2(4000),
+c005 varchar2(4000),
+c006 varchar2(4000),
+c007 varchar2(4000),
+c008 varchar2(4000),
+c009 varchar2(4000),
+c010 varchar2(4000),
+c011 varchar2(4000),
+c012 varchar2(4000),
+c013 varchar2(4000),
+c014 varchar2(4000),
+c015 varchar2(4000),
+c016 varchar2(4000),
+c017 varchar2(4000),
+c018 varchar2(4000),
+c019 varchar2(4000),
+c020 varchar2(4000),
+c021 varchar2(4000),
+c022 varchar2(4000),
+c023 varchar2(4000),
+c024 varchar2(4000),
+c025 varchar2(4000),
+c026 varchar2(4000),
+c027 varchar2(4000),
+c028 varchar2(4000),
+c029 varchar2(4000),
+c030 varchar2(4000),
+c031 varchar2(4000),
+c032 varchar2(4000),
+c033 varchar2(4000),
+c034 varchar2(4000),
+c035 varchar2(4000),
+c036 varchar2(4000),
+c037 varchar2(4000),
+c038 varchar2(4000));
+
+/

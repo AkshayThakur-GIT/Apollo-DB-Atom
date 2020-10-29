@@ -1,0 +1,21 @@
+--------------------------------------------------------
+--  DDL for Type TRUCK_TYPE_OBJ
+--------------------------------------------------------
+
+  CREATE OR REPLACE EDITIONABLE TYPE "ATOM"."TRUCK_TYPE_OBJ" AUTHID CURRENT_USER
+AS
+  OBJECT
+  (TRUCK_TYPE	VARCHAR2(50),
+    LOAD_FACTOR	NUMBER,
+    TRUCK_DESC	VARCHAR2(50),
+    TTE_CAPACITY	NUMBER,
+    GROSS_WT	NUMBER,
+    GROSS_WT_UOM	VARCHAR2(5),
+    GROSS_VOL	NUMBER,
+    GROSS_VOL_UOM	VARCHAR2(5),
+    VARIANT1	VARCHAR2(50),
+    VARIANT2	VARCHAR2(50)
+  
+  );
+
+/

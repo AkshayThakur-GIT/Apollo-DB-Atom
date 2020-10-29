@@ -1,0 +1,44 @@
+--------------------------------------------------------
+--  DDL for Type FREIGHT_DATA_UPD_OBJ
+--------------------------------------------------------
+
+  CREATE OR REPLACE EDITIONABLE TYPE "ATOM"."FREIGHT_DATA_UPD_OBJ" AUTHID CURRENT_USER
+AS
+  OBJECT
+  (	
+    ID					 NUMBER,
+	TRANSPORTER_SAP_CODE VARCHAR2(50),
+    SERVPROV             VARCHAR2(50),
+    SOURCE_LOC           VARCHAR2(50),
+    DEST_LOC             VARCHAR2(50),
+   -- LANE_CODE            VARCHAR2(50),
+    TRUCK_TYPE           VARCHAR2(50),
+    CONDITION1           VARCHAR2(200),
+    CONDITION2           VARCHAR2(800),
+    EFFECTIVE_DATE       varchar2(100),
+    EXPIRY_DATE          varchar2(100),
+    TT_DAYS              NUMBER,
+    BASE_FREIGHT         NUMBER,
+    BASE_FREIGHT_UOM     VARCHAR2(10),
+    BASIS                VARCHAR2(50),
+    MIN_VALUE            NUMBER,
+    MIN_VALUE_UOM        VARCHAR2(10),
+	TRANSPORT_MODE		VARCHAR2(50),
+	STATUS            	VARCHAR2(50),
+	RATE_TYPE			VARCHAR2(20),
+	LOADING				NUMBER,
+	UNLOADING			NUMBER,
+	OTHERS1				NUMBER,
+	OTHERS1_CODE		VARCHAR2(100),
+	OTHERS2				NUMBER,
+	OTHERS2_CODE		VARCHAR2(100),
+	OTHERS3				NUMBER,
+	OTHERS3_CODE		VARCHAR2(100),
+  DISTANCE			NUMBER,
+	TOTAL_EXPENSE		NUMBER,
+	PAYABLE_TRANSPORTER	NUMBER,
+	SOURCE_TYPE			VARCHAR2(20),
+    REMARKS             VARCHAR2(4000)
+  );
+
+/
