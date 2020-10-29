@@ -14,6 +14,7 @@
 
 */
   c_loadfactor constant number := 122;
+  -- Below constant is used to connect to OTM Instance
   c_otm_instance constant varchar2(20) := 'TEST';
 
   -- Integration API constants (autherization)
