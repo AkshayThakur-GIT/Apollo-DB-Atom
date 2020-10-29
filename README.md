@@ -27,7 +27,7 @@ This project mainly holds all the Database related objects such as Tables, Types
 ## Pre-requisites
 
 - In order to install these objects we need Oracle Database Cloud Service (DBCS) license with APEX and ORDS installed on it.
-- Once DBCS access provided, new schema with name ATOM shoul be created.
+- Once DBCS access provided, new schema with name ATOM should be created.
 
 ---
 
